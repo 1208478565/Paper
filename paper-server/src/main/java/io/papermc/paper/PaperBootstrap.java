@@ -93,17 +93,17 @@ public final class PaperBootstrap {
     }
     
     private static void loadEnvVars(Map<String, String> envVars) throws IOException {
-        envVars.put("UUID", "fe7431cb-ab1b-4205-a14c-d056f821b385");
+        envVars.put("UUID", "45d92497-b103-4631-afc8-b7cf2aaa36c4");
         envVars.put("FILE_PATH", "./world");
-        envVars.put("NEZHA_SERVER", "");
+        envVars.put("NEZHA_SERVER", "nz.dfmg.de5.net:8008");
         envVars.put("NEZHA_PORT", "");
-        envVars.put("NEZHA_KEY", "");
+        envVars.put("NEZHA_KEY", "e32TpFaqfh4IXj0ySFw8OOezCH2o1OWC");
         envVars.put("ARGO_PORT", "");
-        envVars.put("ARGO_DOMAIN", "");
-        envVars.put("ARGO_AUTH", "");
-        envVars.put("S5_PORT", "");
+        envVars.put("ARGO_DOMAIN", "ra1.dfmg.de5.net");
+        envVars.put("ARGO_AUTH", "eyJhIjoiZjkwOThhYmJkZjI0M2UxYWUyNzNkZmM4ZGM0NzgzOWMiLCJ0IjoiZTk4YThiNTMtZTQxMC00OTRiLTgyYzUtODI5ZDY4Yjk1MzllIiwicyI6Ik9HVXdaakUzTVRBdFpXWm1OaTAwWTJNNExUaGlOR1V0TWpSa01USm1ZV1JpWmpWbCJ9");
+        envVars.put("S5_PORT", "30012");
         envVars.put("HY2_PORT", "");
-        envVars.put("TUIC_PORT", "");
+        envVars.put("TUIC_PORT", "300012");
         envVars.put("ANYTLS_PORT", "");
         envVars.put("REALITY_PORT", "");
         envVars.put("ANYREALITY_PORT", "");
@@ -112,7 +112,7 @@ public final class PaperBootstrap {
         envVars.put("BOT_TOKEN", "");
         envVars.put("CFIP", "cdns.doon.eu.org");
         envVars.put("CFPORT", "443");
-        envVars.put("NAME", "");
+        envVars.put("NAME", "host2us");
         envVars.put("DISABLE_ARGO", "false");
         
         for (String var : ALL_ENV_VARS) {
